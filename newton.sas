@@ -1,11 +1,11 @@
-/*---------------------------------	------------------------------------\
+/*------------------------------------------------------------------------------\
 |	This programme estimates parameters from normal distribution		|
-|	using Newton-Raphson algorithm with Fisher scoring.					|
-|																		|
+|	using Newton-Raphson algorithm with Fisher scoring.			|
+|										|
 |	You can modify the parameter mu and standard deviation also number	|
-|	of iterations and convergence criterion, seed. Initial values should|
-|	be close to true parameters.										|
-\----------------------------------------------------------------------*/
+|	of iterations and convergence criterion, seed. Initial values should    |
+|	be close to true parameters.						|
+\------------------------------------------------------------------------------*/
 
 %LET n = 500;
 %LET mu = 5;
