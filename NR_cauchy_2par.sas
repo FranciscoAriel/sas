@@ -32,7 +32,7 @@ PROC IML;
         RETURN (hessian);
     FINISH;
     START NEWTON(semilla) GLOBAL (n, x, niter, tol);
-		TITLE "Newton-Raphson Algoritm";
+		TITLE "Newton-Raphson Algorithm";
         inicial = semilla;
         MATTRIB inicial ROWNAME = {"Location","Scale"} LABEL = "Initial values";
         lvi = lvero(inicial);
